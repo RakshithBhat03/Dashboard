@@ -1,10 +1,12 @@
 import "./App.css";
-import { Navbar } from "./compoents/";
+import { BudgetInfo, Navbar, Overview } from "./compoents/";
 
 function App() {
   return (
     <div className="App w-full">
       <Navbar />
+      <Overview />
+      <BudgetInfo />
     </div>
   );
 }

@@ -1,0 +1,1 @@
+export { getInfoIcon } from "./getInfoIcon";

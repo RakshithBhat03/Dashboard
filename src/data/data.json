@@ -1,0 +1,139 @@
+{
+  "infoCards": [
+    {
+      "id": 1,
+      "title": "Total Projects",
+      "total": "5",
+      "icon": "GridViewIcon",
+      "warning": "false"
+    },
+    {
+      "id": 2,
+      "title": "Completed",
+      "total": "1",
+      "icon": "TaskAltOutlinedIcon",
+      "warning": "false"
+    },
+    {
+      "id": 3,
+      "title": "Ongoing",
+      "total": "3",
+      "icon": "AutorenewOutlinedIcon",
+      "warning": "false"
+    },
+    {
+      "id": 4,
+      "title": "Delayed",
+      "total": "1",
+      "icon": "WarningAmberOutlinedIcon",
+      "warning": "true"
+    },
+    {
+      "id": 5,
+      "title": "Employees",
+      "total": "5",
+      "icon": "PeopleOutlinedIcon",
+      "warning": "false"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Jane Doe",
+      "mood": "3",
+      "emoji": "sad-emoji",
+      "profile_icon": "https://randomuser.me/api/portraits/med/women/1.jpg",
+      "designation": "Unemployed"
+    },
+    {
+      "id": 2,
+      "name": "John Doe",
+      "mood": "10",
+      "emoji": "happier-emoji",
+      "profile_icon": "https://randomuser.me/api/portraits/med/men/58.jpg",
+      "designation": "Unemployed"
+    },
+    {
+      "id": 3,
+      "name": "John Doe",
+      "mood": "7",
+      "emoji": "happy-emoji",
+      "profile_icon": "https://randomuser.me/api/portraits/med/men/14.jpg",
+      "designation": "Unemployed"
+    },
+    {
+      "id": 4,
+      "name": "John Doe",
+      "mood": "0",
+      "emoji": "angry-emoji",
+      "profile_icon": "https://randomuser.me/api/portraits/med/men/27.jpg",
+      "designation": "Unemployed"
+    },
+    {
+      "id": 5,
+      "name": "Jane Doe",
+      "mood": "5",
+      "emoji": "confused-emoji",
+      "profile_icon": "https://randomuser.me/api/portraits/med/women/75.jpg",
+      "designation": "Unemployed"
+    }
+  ],
+  "budget": [
+    {
+      "id": 1,
+      "name": "Insurance App",
+      "company": "Verti",
+      "totalBudget": "70,000 €",
+      "isProfitable": "false",
+      "profit": "-2,500 €",
+      "actualHours": "1,100",
+      "soldHours": "1200",
+      "progress": "full",
+      "progressColor": "rose",
+      "isOverBudget": "true",
+      "overBudgetHours": "100"
+    },
+    {
+      "id": 2,
+      "name": "Neo",
+      "company": "Bankia",
+      "totalBudget": "70,000 €",
+      "isProfitable": "true",
+      "profit": "4,000 €",
+      "actualHours": "1,100",
+      "soldHours": "1000",
+      "progress": "1/2",
+      "progressColor": "geebung",
+      "isOverBudget": "false",
+      "overBudgetHours": "0"
+    },
+    {
+      "id": 3,
+      "name": "VR Website",
+      "company": "Barca",
+      "totalBudget": "70,000 €",
+      "isProfitable": "true",
+      "profit": "4,000 €",
+      "actualHours": "1,100",
+      "soldHours": "1000",
+      "progress": "1/2",
+      "progressColor": "teal",
+      "isOverBudget": "false",
+      "overBudgetHours": "0"
+    },
+    {
+      "id": 4,
+      "name": "VR Website",
+      "company": "Barca",
+      "totalBudget": "70,000 €",
+      "isProfitable": "true",
+      "profit": "4,000 €",
+      "actualHours": "1,100",
+      "soldHours": "1000",
+      "progress": "full",
+      "progressColor": "teal",
+      "isOverBudget": "false",
+      "overBudgetHours": "0"
+    }
+  ]
+}

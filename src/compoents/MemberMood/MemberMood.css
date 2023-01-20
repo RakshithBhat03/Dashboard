@@ -1,0 +1,61 @@
+input[type="range"] {
+  -webkit-appearance: none;
+}
+input[type="range"]::-moz-range-thumb {
+  width: 1rem;
+  height: 1rem;
+  border: 0;
+  background-size: cover;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border: 0;
+  background-size: cover;
+}
+/* Happy Emoji */
+.range-slider.happy-emoji::-moz-range-thumb {
+  background-image: url("../../assets/emoji/happy.png");
+  background-size: cover;
+}
+.range-slider.happy-emoji::-webkit-slider-thumb {
+  background-image: url("../../assets/emoji/happy.png");
+  background-size: cover;
+}
+/* Happier Emoji */
+.range-slider.happier-emoji::-moz-range-thumb {
+  background-image: url("../../assets/emoji/happier.png");
+  background-size: cover;
+}
+.range-slider.happier-emoji::-webkit-slider-thumb {
+  background-image: url("../../assets/emoji/happier.png");
+  background-size: cover;
+}
+/* Sad Emoji */
+.range-slider.sad-emoji::-moz-range-thumb {
+  background-image: url("../../assets/emoji/sad.png");
+  background-size: cover;
+}
+.range-slider.sad-emoji::-webkit-slider-thumb {
+  background-image: url("../../assets/emoji/sad.png");
+  background-size: cover;
+}
+/* Angry Emoji */
+.range-slider.angry-emoji::-moz-range-thumb {
+  background-image: url("../../assets/emoji/angry.png");
+  background-size: cover;
+}
+.range-slider.angry-emoji::-webkit-slider-thumb {
+  background-image: url("../../assets/emoji/angry.png");
+  background-size: cover;
+}
+/* Confused Emoji */
+.range-slider.confused-emoji::-moz-range-thumb {
+  background-image: url("../../assets/emoji/confused.png");
+  background-size: cover;
+}
+.range-slider.confused-emoji::-webkit-slider-thumb {
+  background-image: url("../../assets/emoji/confused.png");
+  background-size: cover;
+}

@@ -1,6 +1,6 @@
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
-import { ProfileIcon } from "./";
+import { ProfileIcon } from "..";
 export const Navbar = () => {
   return (
     <nav className="flex h-16 bg-bgNavbar mx-6 text-white flex items-center justify-between">
