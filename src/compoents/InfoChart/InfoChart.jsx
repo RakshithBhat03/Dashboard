@@ -6,7 +6,7 @@ export const InfoChart = () => {
     <div className="row-span-3 col-span-2 shadow-card p-4 flex flex-col justify-between">
       <header className="flex justify-between items-center">
         <h2 className="text-md font-light">Budget</h2>
-        <ToggleButton />
+        <ToggleButton toggleBetween={["Profitabilty", "Status"]} />
       </header>
       <div className="">
         <Chart

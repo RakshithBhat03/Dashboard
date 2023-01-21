@@ -1,14 +1,16 @@
 import { useState } from "react";
 
-export const ToggleButton = () => {
+export const ToggleButton = ({ toggleBetween }) => {
   const [checked, setChecked] = useState(true);
+  const LeftHandValue = toggleBetween[0];
+  const RightHandValue = toggleBetween[1];
   return (
     <div className="flex gap-1 items-center">
       <span
         className={`text-sm font-light ${
           checked ? "text-slate-400" : "text-black"
         }`}>
-        Profitability
+        {LeftHandValue}
       </span>
       <label class="relative inline-flex items-center cursor-pointer">
         <input
@@ -24,7 +26,7 @@ export const ToggleButton = () => {
         className={`text-sm font-light ${
           checked ? "text-black" : "text-slate-400"
         }`}>
-        Status
+        {RightHandValue}
       </span>
     </div>
   );

@@ -1,6 +1,6 @@
 export const PROFILE_URL = "https://randomuser.me/api/portraits/med/men/75.jpg";
 export const chartData = {
-  series: [48, 30, 22],
+  series: [2.4, 1.6, 1],
   options: {
     chart: {
       type: "donut",
@@ -19,8 +19,30 @@ export const chartData = {
         fontSize: "9px",
       },
     },
-    bar: {
-      barHeight: "50%",
+    plotOptions: {
+      pie: {
+        donut: {
+          size: "65%",
+          labels: {
+            show: true,
+            name: {
+              show: true,
+              offsetY: 20,
+            },
+            value: {
+              show: true,
+              offsetY: -20,
+              fontWeight: 600,
+            },
+            total: {
+              show: true,
+              showAlways: true,
+              label: "Total Projects",
+              fontSize: "12px",
+            },
+          },
+        },
+      },
     },
   },
 };
