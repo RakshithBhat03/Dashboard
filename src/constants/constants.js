@@ -46,3 +46,71 @@ export const chartData = {
     },
   },
 };
+export const graphData = {
+  series: [
+    {
+      name: "Cost",
+      data: [0, 1000, 3500, 3250, 4250, 5500, 6500, 6500],
+    },
+  ],
+  options: {
+    chart: {
+      type: "line",
+      zoom: {
+        enabled: false,
+      },
+      toolbar: {
+        show: false,
+      },
+    },
+    dataLabels: {
+      enabled: false,
+    },
+    stroke: {
+      curve: "straight",
+      width: 2,
+      colors: "#008077",
+    },
+    xaxis: {
+      tickAmount: 7,
+      categories: [
+        "19 June",
+        "20 June",
+        "21 June",
+        "22 June",
+        "23 June",
+        "24 June",
+        "25 June",
+        " ",
+      ],
+      labels: {
+        show: true,
+        // offsetX: 5,
+      },
+    },
+    yaxis: {
+      tickAmount: 7,
+    },
+    grid: {
+      show: true,
+      position: "back",
+      borderColor: "#cbd5e1",
+      xaxis: {
+        lines: {
+          show: true,
+        },
+      },
+      yaxis: {
+        lines: {
+          show: true,
+        },
+      },
+    },
+    tooltip: {
+      enabled: false,
+    },
+  },
+  markers: {
+    show: false,
+  },
+};

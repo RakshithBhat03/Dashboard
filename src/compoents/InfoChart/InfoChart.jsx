@@ -8,7 +8,7 @@ export const InfoChart = () => {
         <h2 className="text-md font-light">Budget</h2>
         <ToggleButton toggleBetween={["Profitabilty", "Status"]} />
       </header>
-      <div className="">
+      <div>
         <Chart
           height={"280px"}
           options={chartData.options}
