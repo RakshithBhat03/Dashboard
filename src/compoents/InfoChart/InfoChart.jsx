@@ -10,7 +10,7 @@ export const InfoChart = () => {
       </header>
       <div>
         <Chart
-          height={"280px"}
+          height={"300px"}
           options={chartData.options}
           series={chartData.series}
           type="donut"

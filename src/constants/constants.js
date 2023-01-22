@@ -1,4 +1,5 @@
 export const PROFILE_URL = "https://randomuser.me/api/portraits/med/men/75.jpg";
+export const RANDOM_IMAGE_URL = "https://picsum.photos/id/254/200/300";
 export const chartData = {
   series: [2.4, 1.6, 1],
   options: {
@@ -63,6 +64,17 @@ export const graphData = {
         show: false,
       },
     },
+
+    labels: [
+      "19 June",
+      "20 June",
+      "21 June",
+      "22 June",
+      "23 June",
+      "24 June",
+      "25 June",
+      ".",
+    ],
     dataLabels: {
       enabled: false,
     },
@@ -73,23 +85,51 @@ export const graphData = {
     },
     xaxis: {
       tickAmount: 7,
-      categories: [
-        "19 June",
-        "20 June",
-        "21 June",
-        "22 June",
-        "23 June",
-        "24 June",
-        "25 June",
-        " ",
-      ],
+      tickPlacement: "on",
+      offsetX: 20,
+      axisTicks: {
+        show: false,
+      },
       labels: {
         show: true,
-        // offsetX: 5,
+        offsetY: -5,
+        maxHeight: 15,
+      },
+      axisBorder: {
+        show: false,
       },
     },
     yaxis: {
+      seriesName: "Cost",
       tickAmount: 7,
+      labels: {
+        show: true,
+        maxWidth: 40,
+        offsetY: 8,
+        offsetX: 0,
+        formatter: function (val) {
+          return val === 0 ? " " : val;
+        },
+      },
+      title: {
+        text: "Cost €",
+        rotate: 0,
+        offsetX: 30,
+        offsetY: -125,
+        align: "left",
+        style: {
+          color: "#cbd5e1",
+          fontWeight: 400,
+          fontSize: 12,
+        },
+      },
+      axisBorder: {
+        show: false,
+        offsetX: 0,
+      },
+      axisTicks: {
+        show: false,
+      },
     },
     grid: {
       show: true,
@@ -105,12 +145,15 @@ export const graphData = {
           show: true,
         },
       },
+      grid: {
+        padding: {
+          left: 0,
+          right: 0,
+        },
+      },
     },
     tooltip: {
       enabled: false,
     },
-  },
-  markers: {
-    show: false,
   },
 };

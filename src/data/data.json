@@ -39,43 +39,43 @@
   "users": [
     {
       "id": 1,
-      "name": "Jane Doe",
+      "name": "Andrea",
       "mood": "3",
       "emoji": "sad-emoji",
       "profile_icon": "https://randomuser.me/api/portraits/med/women/1.jpg",
-      "designation": "Unemployed"
+      "designation": "UX Junior"
     },
     {
       "id": 2,
-      "name": "John Doe",
+      "name": "Alvaro",
       "mood": "10",
       "emoji": "happier-emoji",
       "profile_icon": "https://randomuser.me/api/portraits/med/men/58.jpg",
-      "designation": "Unemployed"
+      "designation": "Backend developer"
     },
     {
       "id": 3,
-      "name": "John Doe",
+      "name": "Juan",
       "mood": "7",
       "emoji": "happy-emoji",
       "profile_icon": "https://randomuser.me/api/portraits/med/men/14.jpg",
-      "designation": "Unemployed"
+      "designation": "UX Senior"
     },
     {
       "id": 4,
-      "name": "John Doe",
+      "name": "Jose",
       "mood": "0",
       "emoji": "angry-emoji",
       "profile_icon": "https://randomuser.me/api/portraits/med/men/27.jpg",
-      "designation": "Unemployed"
+      "designation": "Marketing"
     },
     {
       "id": 5,
-      "name": "Jane Doe",
+      "name": "Maria",
       "mood": "5",
       "emoji": "confused-emoji",
       "profile_icon": "https://randomuser.me/api/portraits/med/women/75.jpg",
-      "designation": "Unemployed"
+      "designation": "UX Junior"
     }
   ],
   "budget": [

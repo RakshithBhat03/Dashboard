@@ -1,7 +1,10 @@
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
+import data from "../../data/data.json";
 import { ProfileIcon } from "..";
 export const Navbar = () => {
+  const { users } = data;
+  const currentUser = users[0];
   return (
     <nav className="flex h-16 bg-bgNavbar mx-6 text-white flex items-center justify-between">
       <h2 className="text-2xl first-letter:text-turquoiseBlue tracking-[0.3em] font-bold ml-12 hover:cursor-pointer">
@@ -32,8 +35,10 @@ export const Navbar = () => {
           <NotificationsNoneOutlinedIcon className="hover:cursor-pointer font-light" />
           <span className="absolute top-1.5 right-1 bg-rose-600 h-1.5 w-1.5 rounded-full"></span>
         </div>
-        <ProfileIcon />
-        <p className="text-sm font-light hover:cursor-pointer">John</p>
+        <ProfileIcon iconUrl={currentUser.profile_icon} />
+        <p className="text-sm font-light hover:cursor-pointer">
+          {currentUser.name}
+        </p>
         <KeyboardArrowDownOutlinedIcon className="hover:cursor-pointer font-light" />
       </div>
     </nav>
